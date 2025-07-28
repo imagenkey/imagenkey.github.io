@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 記事アーカイブ - Archive
+title: 記事アーカイブ
 ---
 
 ## 投稿した記事の一覧
