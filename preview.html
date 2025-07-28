@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-SURVIVOR LOG - Preview</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --text-color: #34495e;
+            --background-color: #ffffff;
+            --border-color: #ecf0f1;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+            --gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            background: var(--background-color);
+        }
+
+        .site-header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            box-shadow: 0 2px 20px var(--shadow-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 1rem 0;
+        }
+
+        .header-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .site-title {
+            font-weight: 700;
+            font-size: 1.5rem;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-decoration: none;
+        }
+
+        .site-nav {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .page-link {
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            color: var(--text-color);
+        }
+
+        .page-link:hover {
+            background: var(--accent-color);
+            color: white;
+        }
+
+        .wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .hero-section {
+            background: var(--gradient);
+            color: white;
+            padding: 4rem 2rem;
+            margin: 0 -2rem 3rem -2rem;
+            border-radius: 0 0 20px 20px;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-section h1::before {
+            content: "🤖 ";
+            margin-right: 0.5rem;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 600;
+            letter-spacing: -0.025em;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        .weapon-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--accent-color);
+            transition: all 0.3s ease;
+        }
+
+        .weapon-card:hover {
+            transform: translateX(10px);
+            box-shadow: 0 4px 20px var(--shadow-color);
+        }
+
+        .weapon-card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .site-footer {
+            background: var(--primary-color);
+            color: white;
+            margin-top: 4rem;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .wrapper {
+                padding: 0 1rem;
+            }
+            
+            .hero-section {
+                margin: 0 -1rem 2rem -1rem;
+                padding: 3rem 1rem;
+            }
+            
+            .hero-section h1 {
+                font-size: 2rem;
+            }
+            
+            .weapon-card {
+                padding: 1.5rem;
+            }
+
+            .site-nav {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-wrapper">
+            <a class="site-title" href="/">AI-SURVIVOR LOG</a>
+            <nav class="site-nav">
+                <a class="page-link" href="/">Home</a>
+                <a class="page-link" href="/weapons">⚔️ 武器庫</a>
+                <a class="page-link" href="/archive">📚 アーカイブ</a>
+                <a class="page-link" href="/about">🧬 About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <div class="wrapper">
+            <div class="hero-section">
+                <h1>AI-SURVIVOR LOG</h1>
+                <p>先進的なAI研究開発の最前線から。次世代の人工知能技術を探求し、革新的な実装手法と洞察を共有する技術者のログです。</p>
+            </div>
+
+            <h2>🚀 最新のブレイクスルー</h2>
+            <p>AI技術の急速な進歩に対応し、実践的な応用から理論的考察まで、現場で得られた知見を記録しています。</p>
+
+            <h2>⚡ 精鋭の武器庫</h2>
+            <p>現在使用している最先端AIツールたち：</p>
+
+            <div class="weapon-card">
+                <h3>🎯 Claude 3.5 Sonnet</h3>
+                <p>高度な推論能力と創造性を兼ね備えた次世代AI。複雑な問題解決とコード生成において驚異的なパフォーマンスを発揮。</p>
+            </div>
+
+            <div class="weapon-card">
+                <h3>🔥 GPT-4 Turbo</h3>
+                <p>OpenAIの最新フラッグシップモデル。広範囲なタスクで一貫した高品質な出力を提供する汎用AIアシスタント。</p>
+            </div>
+
+            <div class="weapon-card">
+                <h3>⚙️ GitHub Copilot</h3>
+                <p>コード開発を革命的に加速させるAIペアプログラマー。実装効率を300%向上させる開発の必須ツール。</p>
+            </div>
+
+            <h2>📊 最新の研究ログ</h2>
+            <p>最新の投稿と研究成果をご覧ください：</p>
+
+            <div class="weapon-card">
+                <h3><a href="#" style="color: var(--primary-color); text-decoration: none;">Claude 3.5 Sonnet: AIエンジニアリングの新時代を切り開く最強の相棒</a></h3>
+                <p class="post-meta" style="color: #7f8c8d; font-size: 0.9rem;">2025年7月28日</p>
+                <p>Anthropicの最新AI「Claude 3.5 Sonnet」が如何にして私の開発ワークフローを根本的に変革したか。その驚異的な能力と実践的な活用法を詳細に解説します。</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p>&copy; 2025 AI-SURVIVOR LOG. Powered by Jekyll & GitHub Pages.</p>
+            <p>AI × Human Intelligence for the Future</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,16 +1,47 @@
-#https://aistudio.google.com/prompts/1b1gsUWhwFN_VqcS0ZZoc-oc7SPuSnmFT
+# AI-SURVIVOR LOG - Advanced AI Research & Development
+title: "AI-SURVIVOR LOG"
+subtitle: "Pioneering the Future of AI Innovation"
+author: 
+  name: imagenkey
+  email: imagenkey@github.io
+description: >-
+  Advanced AI research and development insights. Exploring cutting-edge tools,
+  methodologies, and breakthrough implementations in artificial intelligence.
 
-# サイトの基本情報
-title: AI-SURVIVOR LOG
-author: imagenkey
+# Build settings
+theme: minima
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# 使用するテーマの設定 (公式のminimaテーマを指定)
-theme: minima 
-
+# Navigation
 header_pages:
   - index.md
   - weapons.md
   - archive.md
   - about.md
 
-show_excerpts: false
+# Display settings
+show_excerpts: true
+excerpt_separator: <!--more-->
+
+# Minima theme customization
+minima:
+  skin: dark
+  social_links:
+    github: imagenkey
+    twitter: imagenkey
+
+# Google Analytics (optional)
+# google_analytics: YOUR_GA_ID
+
+# SEO settings
+lang: ja
+timezone: Asia/Tokyo
+
+# Custom variables
+future: true
+permalink: /:categories/:year/:month/:day/:title/
