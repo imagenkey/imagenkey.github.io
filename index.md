@@ -4,21 +4,23 @@ layout: home
 
 こんにちは！ここは私がAIという武器を磨き、日々の取り組みや考えを記録していくための場所です。
 
-## 最前線の武装
+# 最前線の武装
 
-### リサーチ系
-- ChatGPT O3
-- Google AI Studio
-- Microsoft 365 Copilot
+現在使用している主要なAIツールとマインドセットを紹介します。
 
-### 開発系
-- GitHub Copilot
-- Claude
+## リサーチ系
+- **ChatGPT O3** - 最新の言語モデルによる高度な対話・分析
+- **Google AI Studio** - Googleの生成AIプラットフォーム
+- **Microsoft 365 Copilot** - Office統合型AIアシスタント
 
-### 情報収集系
-- Perplexity
-- Notion AI
+## 開発系
+- **GitHub Copilot** - コード生成・補完支援
+- **Claude** - Anthropic製の高性能AI
 
-### マインド装備
-- システム思考
-- 仮説検証サイクル
+## 情報収集系
+- **Perplexity** - AI搭載検索エンジン
+- **Notion AI** - ナレッジベース統合AI
+
+## マインド装備
+- **システム思考** - 全体最適を考える思考法
+- **仮説検証サイクル** - 継続的な改善アプローチ

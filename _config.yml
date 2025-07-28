@@ -7,8 +7,8 @@ theme: minima
 
 header_pages:
   - index.md
-  - weapons.md
   - archive.md
+  - weapons.md
 
 show_excerpts: false
 
