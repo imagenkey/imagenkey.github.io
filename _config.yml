@@ -11,3 +11,8 @@ header_pages:
   - archive.md
 
 show_excerpts: false
+
+# RSS表示を無効化
+minima:
+  social_links:
+    rss: false
