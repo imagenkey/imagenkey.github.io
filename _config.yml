@@ -6,3 +6,9 @@ author: imagenkey
 
 # 使用するテーマの設定 (公式のminimaテーマを指定)
 theme: minima 
+
+header_pages:
+  - index.md
+  - weapons.md
+  - archive.md
+  - about.md
