@@ -1,4 +1,10 @@
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" fill="#2c3e50"/>
-  <text x="16" y="24" font-family="monospace" font-size="20" text-anchor="middle" fill="#ecf0f1">⚔</text>
+  <g>
+    <rect x="14" y="4" width="4" height="18" rx="2" fill="#ecf0f1"/>
+    <polygon points="16,2 20,8 12,8" fill="#ecf0f1"/>
+    <rect x="12" y="22" width="8" height="4" rx="2" fill="#ecf0f1"/>
+    <rect x="15" y="26" width="2" height="4" rx="1" fill="#ecf0f1"/>
+  </g>
 </svg>
