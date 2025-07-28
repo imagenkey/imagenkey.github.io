@@ -1,11 +1,11 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" fill="#2c3e50"/>
-  <!-- 盾のベース（色付き） -->
-  <path d="M16 3 L26 8 L26 18 Q26 26 16 29 Q6 26 6 18 L6 8 Z" fill="#3498db" stroke="#ecf0f1" stroke-width="2"/>
-  <!-- 盾の中央の模様（十字パターン） -->
-  <g fill="#ecf0f1">
-    <rect x="15" y="10" width="2" height="12"/>
-    <rect x="11" y="15" width="10" height="2"/>
+  <rect width="32" height="32" fill="#000000"/>
+  <!-- 青い盾のベース -->
+  <path d="M16 2 L28 7 L28 18 Q28 27 16 30 Q4 27 4 18 L4 7 Z" fill="#5DADE2"/>
+  <!-- 黒い十字 -->
+  <g fill="#000000">
+    <rect x="14" y="8" width="4" height="16"/>
+    <rect x="8" y="14" width="16" height="4"/>
   </g>
 </svg>
