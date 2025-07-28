@@ -2,8 +2,8 @@
 layout: post
 title: "GPT-4から学んだ教訓：第一線から引退した名器を振り返る"
 date: 2025-01-28
-categories: [tool, ai, archived]
-tags: [GPT-4, OpenAI, archived, 振り返り]
+categories: [tool, ai, retired]
+tags: [GPT-4, OpenAI, retired, 振り返り]
 ---
 
 ChatGPT O3の登場により、長らく主力として活躍していたGPT-4が第一線から引退しました。この機会に、GPT-4と過ごした時間を振り返り、そこから得られた教訓をまとめておきたいと思います。
