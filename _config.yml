@@ -16,3 +16,7 @@ show_excerpts: false
 minima:
   social_links:
     rss: false
+
+# Favicon設定
+plugins:
+  - jekyll-feed
