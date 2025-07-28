@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 武器一覧 - Arsenal
+title: 武器一覧
 ---
 
 ## 現在の最強の武器
