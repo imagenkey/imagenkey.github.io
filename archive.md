@@ -8,4 +8,10 @@ permalink: /archive/
 
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%Y年%m月%d日" }}
+  {% if post.categories contains 'tool' %}
+  <span class="weapon-tag">[武器]</span>
+  {% endif %}
+  {% if post.categories contains 'mindset' %}
+  <span class="mindset-tag">[マインド]</span>
+  {% endif %}
 {% endfor %}
