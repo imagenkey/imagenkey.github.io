@@ -7,18 +7,18 @@ layout: home
 ## 最前線の武器館
 
 ### リサーチ系
-- **ChatGPT O3** - メイン推論エンジン・深度分析
-- **Google AI Studio** - 大容量データ処理・多言語分析
-- **Microsoft 365 Copilot** - 文書作成支援・データ分析
+- ChatGPT O3
+- Google AI Studio
+- Microsoft 365 Copilot
 
 ### 開発系
-- **GitHub Copilot** - コード生成・ペアプログラミング
-- **Claude** - 長文校正・構造化編集
+- GitHub Copilot
+- Claude
 
 ### 情報収集系
-- **Perplexity** - リアルタイム情報収集・事実確認
-- **Notion AI** - アイデア整理・初期構想展開
+- Perplexity
+- Notion AI
 
 ### マインド装備
-- **システム思考** - 複雑な問題を構造的に捉える思考法
-- **仮説検証サイクル** - 効率的な学習と改善のためのアプローチ
+- システム思考
+- 仮説検証サイクル
