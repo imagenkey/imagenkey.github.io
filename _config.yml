@@ -12,3 +12,5 @@ header_pages:
   - weapons.md
   - archive.md
   - about.md
+
+show_excerpts: false
