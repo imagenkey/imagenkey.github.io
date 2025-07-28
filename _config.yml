@@ -1,13 +1,6 @@
 # サイトの基本情報
-title: "[あなたのサイトのタイトル (例: AI時代の生存戦略)]"
-description: "[サイトの簡単な説明 (例: AI技術を武器に、変化の波を乗りこなすための記録。)]"
-author: "[あなたの名前 or ハンドルネーム]"
+title: AI-SURVIVOR LOG
+author: imagenkey
 
-# 使用するテーマの設定
-remote_theme: onevcat/AP
-
-# (任意) プロフィール画像やSNSリンクの設定
-# avatar: /assets/images/profile.jpg  # プロフィール画像のパス
-# social_links:
-#   twitter: your_twitter_username
-#   github:  your_github_username
+# 使用するテーマの設定 (公式のminimaテーマを指定)
+theme: minima 
